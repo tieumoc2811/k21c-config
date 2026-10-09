@@ -17,11 +17,11 @@
   };
   leds: leds {
     compatible = "gpio-leds";
-    led0 { gpios = <&gpio0 9 GPIO_ACTIVE_LOW>; };
-    led1 { gpios = <&gpio0 10 GPIO_ACTIVE_LOW>; };
-    led2 { gpios = <&gpio1 1 GPIO_ACTIVE_LOW>; };
-    led3 { gpios = <&gpio1 2 GPIO_ACTIVE_LOW>; };
-    led4 { gpios = <&gpio1 7 GPIO_ACTIVE_LOW>; };
-    led5 { gpios = <&gpio1 11 GPIO_ACTIVE_LOW>; };
+    led0: led_0 { label = "LED0"; gpios = <&gpio0 9 GPIO_ACTIVE_LOW>; };
+    led1: led_1 { label = "LED1"; gpios = <&gpio0 10 GPIO_ACTIVE_LOW>; };
+    led2: led_2 { label = "LED2"; gpios = <&gpio1 1 GPIO_ACTIVE_LOW>; };
+    led3: led_3 { label = "LED3"; gpios = <&gpio1 2 GPIO_ACTIVE_LOW>; };
+    led4: led_4 { label = "LED4"; gpios = <&gpio1 7 GPIO_ACTIVE_LOW>; };
+    led5: led_5 { label = "LED5"; gpios = <&gpio1 11 GPIO_ACTIVE_LOW>; };
   };
 };
