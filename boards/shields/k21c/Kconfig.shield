@@ -1,2 +1,3 @@
 config SHIELD_K21C
+  bool
   default y

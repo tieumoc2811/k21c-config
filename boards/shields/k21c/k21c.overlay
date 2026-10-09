@@ -26,3 +26,7 @@
     led5: led_5 { label = "LED5"; gpios = <&gpio1 11 GPIO_ACTIVE_LOW>; };
   };
 };
+
+&uicr {
+  nfct-pins-as-gpios;
+};
